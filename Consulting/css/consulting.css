@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    margin: 0rem 0.001rem;
+}
+
+/* Introduction Part  */
+#intro::before{
+    content: "";
+    background: url('../img/Consulting-Intro-BG.jpg') no-repeat center center/cover;
+    opacity: 0.65;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+#intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 95vh;
+}
+#logo{
+    margin: 3rem 0rem;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+#logoImage{
+    height: 18rem;
+    border-radius: 15rem;
+}
+.heading1{
+    font-size: 6rem;
+    color: rgb(0, 76, 255);
+    font-weight: 700;
+    margin: 1.5rem 0rem;
+}
+.heading2{
+    margin: 1rem 0rem;
+    font-size: 3rem;
+    color: rgb(8, 34, 90);
+    font-weight: 500;
+}
+
+/* About Us Part  */
+#aboutUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
