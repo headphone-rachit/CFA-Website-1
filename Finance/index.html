@@ -10,6 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/basic.css">
+    <link rel="stylesheet" href="/css/mediaquery.css">
+    <link rel="stylesheet" href="/css/secondbasic.css">
     <title>Finance</title>
 </head>
 
@@ -19,9 +21,10 @@
     <div class="department-1">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
-                <a class="navbar-brand ml-1" href="#"><img class="img-fluid" src="images/logo.jpg"
-                        alt="Logo"></a><button type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
-                    class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+                <div id="mydivi"><a class="navbar-brand ml-1" href="#"><img class="img-fluid logopic"
+                            src="images/logo.jpg" alt="Logo"></a></div><button type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavbar" class="navbar-toggler"><span
+                        class="navbar-toggler-icon"></span></button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
@@ -69,19 +72,127 @@
 
         <h1 class="text-center fintext">The Finance Department</h1>
         <hr>
-        <h1 class="text-center fin">“Know what you own, and know why you own it.” – By Peter Lynch</h1>
+        <h1 class="text-center fin">“Know what you own, and know why you own it.”</h1>
         <h1 class="text-center fin">– By Peter Lynch</h1>
     </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <div class="department-2">
+        <div class="container hero">
+            <h1 class="recent">Our Recent Activity</h1>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card bang">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card bang">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card bang">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
+    <!-- Department -3  -->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+    <div class="department-3">
+        <div class="container evee">
+
+            <h1 id="eve">Upcoming Events</h1>
+            <div id="carouselExampleIndicators" class="carousel slide mydisplay" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active mypic">
+                        <img src="/images/event.jpeg" class="d-block w-100 mypic" alt="...">
+                    </div>
+                    <div class="carousel-item mypic">
+                        <img src="/images/event.jpeg" class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item mypic">
+                        <img src="/images/event.jpeg" class="d-block w-100 " alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Department -4  -->
+
+    <div class="department-4">
+        <div class="container selfsus">
+            <img src="/images/veryg.jpeg" alt="O" id="contentbg">
+            <h1 class="tte">Material To KickStart Your Finance Journey</h1>
+            <div class="row ">
+                <div class="col-sm">
+                    <div class="card mycarde" >
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card mycarde">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->

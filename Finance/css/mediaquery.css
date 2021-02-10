@@ -1,0 +1,12 @@
+/* @media only screen and (max-width: 1300px) and (min-width: 990px){
+    
+    .logopic{
+        height: 50px;
+        width: 60px;
+    }
+} */
+@media  (min-width: 990px) and (max-width: 1300px) {
+    .department-1,.department-2,.department-3{
+        width: 100%;
+    }
+}
